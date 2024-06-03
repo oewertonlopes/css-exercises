@@ -7,21 +7,126 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;
+  padding: 8px;
+  margin-bottom: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 8px;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;
+  margin: 0 auto;
+  display: block;
 }
+
+.container{
+  background-color: #90ee90;
+  border: 2px solid #005000;
+  width: 400px;
+  height: auto;
+  margin: 16px auto;
+}
+
+.c_flex {
+margin: 8px;
+display: flex;
+background-color:aquamarine;
+border:2px solid blue;
+}
+
+.c1{
+  background-color: peachpuff;
+  border:2px solid peru;
+  padding: 4px;
+  margin: 12px 6px;
+  height: 20px;
+  width: 120px;
+}
+
+.c1_flex{
+display: flex;
+gap: 2px;
+}
+
+.c1_1{
+  background-color: red;
+  border: 2px solid blue;
+  width: 50px;
+}
+
+.c{
+  display: flex;
+  height: 80px;
+  width: auto;
+  margin: 8px;
+  gap: 8px;
+}
+
+.c2{
+  background-color:pink;
+  border:2px solid palevioletred;
+  flex: 1;
+  }
+
+  .c2_flex{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 4px;
+  }
+
+  .c2_1{
+    background-color:pink;
+    border:2px solid palevioletred;
+    height: 40px; 
+
+  }
+
+
+  .c3{
+    background-color: peachpuff;
+  border:2px solid peru;
+  padding: 6px;
+  margin: 8px 4px;
+  height: 20px;
+  width: 120px;
+  }
+
+  .c3_flex{
+margin: 8px;
+display: flex;
+background-color:aquamarine;
+border:2px solid blue;
+  }
+
+  .c3_int_flex{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  }
+
+  .c3_1{
+    height: 30px;
+    width: 80px;
+    background-color: rebeccapurple;
+    border: 1px solid blue;
+  }
